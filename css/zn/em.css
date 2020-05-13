@@ -1,0 +1,17 @@
+em {
+    /*
+        In China and Hong Kong, the emphasis point (Chinese: 着重号) is used in textbooks and teaching materials. It is centred under each character highlighted in the horizontal texts, and centred to the right of each character in the vertical texts.
+        Reference: https://en.wikipedia.org/wiki/Emphasis_point
+    */
+   text-emphasis-style: dot;
+
+    /*
+        Chinese preferred positions by writing modes are:
+        - Horizontal: under
+        - Vertical: right
+        Reference: https://drafts.csswg.org/css-text-decor-3/#text-emphasis-position-property
+
+        Vertical is the browser default.
+    */
+   text-emphasis-position: under;
+}

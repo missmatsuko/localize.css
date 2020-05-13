@@ -1,0 +1,19 @@
+em {
+    /*
+        In South Korea, the emphasis point (드러냄표 deureonaempyo) usually rules as a point or circle centred above the characters in the horizontal texts and to the right of the characters in the vertical texts.
+        Reference: https://en.wikipedia.org/wiki/Emphasis_point
+    */
+
+    /* Pick 1 of text-emphasis-style */
+    text-emphasis-style: dot;
+    text-emphasis-style: open circle;
+
+    /*
+        Korean preferred positions by writing modes are:
+        - Horizontal: over
+        - Vertical: right
+        Reference: https://drafts.csswg.org/css-text-decor-3/#text-emphasis-position-property
+
+        This is the browser default.
+    */
+}

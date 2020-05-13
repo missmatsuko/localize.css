@@ -1,0 +1,21 @@
+/*
+    NOTE:
+    I recognize that the Mongolian language can be written in a number of scripts (https://en.wikipedia.org/wiki/Mongolian_writing_systems), and I'm not yet sure which are used on the web, and if the emphasis markers should be different depending on the script.
+*/
+
+em {
+    /*
+        Based on its inclusion in this CSS draft, I assume emphasis dots of some type are used in Mongolian.
+        Reference: https://drafts.csswg.org/css-text-decor-3/#text-emphasis-position-property
+    */
+    text-emphasis-style: dot;
+
+    /*
+        Mongolian preferred positions by writing modes are:
+        - Horizontal: over
+        - Vertical: right
+        Reference: https://drafts.csswg.org/css-text-decor-3/#text-emphasis-position-property
+
+        This is the browser default.
+    */
+}

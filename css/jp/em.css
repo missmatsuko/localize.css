@@ -1,0 +1,27 @@
+em {
+    /*
+        In Japan, the emphasis point (傍点 bōten or 圏点 kenten) is usually a point or a sesame point and is centred above each character in the horizontal texts and to the right of each character in the vertical texts.
+        Reference: https://en.wikipedia.org/wiki/Emphasis_point
+
+        Symbols: • ◦ ﹅ ﹆
+        Unicode: 2022, 25E6, FE45, FE46
+        Adding these dots to the sides of characters (right side in vertical writing, above in horizontal writing) emphasizes the character in question. It is the Japanese equivalent of the use of italics for emphasis in English.
+        Reference: https://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols#Other_special_marks
+    */
+
+    /* Pick 1 of text-emphasis-style */
+    text-emphasis-style: dot;
+    text-emphasis-style: sesame;
+    text-emphasis-style: open dot;
+    text-emphasis-style: open sesame; /* LOL */
+
+
+    /*
+        Japanese preferred positions by writing modes are:
+        - Horizontal: over
+        - Vertical: right
+        Reference: https://drafts.csswg.org/css-text-decor-3/#text-emphasis-position-property
+
+        This is the browser default.
+    */
+}
