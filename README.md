@@ -5,4 +5,6 @@ Currently I'm just collecting styles for different languages as a reference, exc
 
 Eventually this may become a CSS library.
 
-Contributions are very welcome!
+Contributions are very welcome, especially from people who are fluent in languages other than English!
+
+Take a look at #5 for places to start.
