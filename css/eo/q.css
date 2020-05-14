@@ -1,0 +1,9 @@
+q {
+  /*
+    There is no standard for quotation marks. L. L. Zamenhof recommended that writers use their native languages' quotation marks.
+    However, it has become common practice to use the quotation marks of American English out of practicality.
+
+    Reference: https://en.wikipedia.org/wiki/Quotation_mark#Summary_table
+  */
+  quotes: "“" "”" "‘" "’";
+}
