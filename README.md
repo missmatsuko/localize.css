@@ -7,4 +7,4 @@ Eventually this may become a CSS library.
 
 Contributions are very welcome, especially from people who are fluent in languages other than English!
 
-Take a look at #5 for places to start.
+Take a look at [the pinned 'Contributing' issue](https://github.com/missmatsuko/localize.css/issues/5) for places to start.
