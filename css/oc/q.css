@@ -1,8 +1,5 @@
 q {
   /*
-    For vertical writing mode, should be using 「…」 낫표 (natpyo, scythe symbol) and『…』 겹낫표 (gyeomnatpyo, double scythe symbol).
-    AFAIK there is no way to select by writing mode (a CSS attribute), so not sure how to include this yet, without using classes.
-
     Reference: https://en.wikipedia.org/wiki/Quotation_mark#Summary_table
   */
   quotes: "“" "”" "‘" "’";
